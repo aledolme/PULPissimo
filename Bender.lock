@@ -75,16 +75,16 @@ packages:
     dependencies:
       - common_cells
   common_cells:
-    revision: 88a08fd4e365ec258375a326c30c20726eaa4fa2
-    version: 1.24.1
+    revision: 4dc9413990622dcbf4b37a19f792834c800da5c7
+    version: 1.28.0
     source:
       Git: "https://github.com/pulp-platform/common_cells.git"
     dependencies:
       - common_verification
       - tech_cells_generic
   common_verification:
-    revision: b616c1a25aea3b76e32dcbed2ec87d057efdcffd
-    version: 0.2.1
+    revision: 9c07fa860593b2caabd9b5681740c25fac04b878
+    version: 0.2.3
     source:
       Git: "https://github.com/pulp-platform/common_verification.git"
     dependencies: []
@@ -114,7 +114,7 @@ packages:
       - common_cells
   generic_fll:
     revision: 1c92dc73a940392182fd4cb7b86f35649b349595
-    version: ~
+    version: 0.2.0
     source:
       Git: "https://github.com/pulp-platform/generic_FLL.git"
     dependencies: []
@@ -160,10 +160,10 @@ packages:
       Git: "https://github.com/pulp-platform/L2_tcdm_hybrid_interco.git"
     dependencies: []
   pulp_soc:
-    revision: 0573a85c8ec502ff5e3ef06946a75eaf567ce16a
-    version: 4.4.0
+    revision: ~
+    version: ~
     source:
-      Git: "https://github.com/pulp-platform/pulp_soc.git"
+      Path: /home/phd-students/alessandra.dolmeta/Desktop/PQC_Project/pulpissimo/working_dir/pulp_soc
     dependencies:
       - adv_dbg_if
       - apb
@@ -200,10 +200,10 @@ packages:
       - udma_sdio
       - udma_uart
   register_interface:
-    revision: e32e6fde632f3cd21861b2ce47045a8bacb5216f
-    version: 0.3.2
+    revision: ~
+    version: ~
     source:
-      Git: "https://github.com/pulp-platform/register_interface.git"
+      Path: /home/phd-students/alessandra.dolmeta/Desktop/PQC_Project/pulpissimo/working_dir/pulp_soc/../register_interface
     dependencies:
       - axi
       - common_cells
@@ -228,8 +228,8 @@ packages:
       Git: "https://github.com/pulp-platform/tbtools.git"
     dependencies: []
   tech_cells_generic:
-    revision: e6226a6f374eb88fed84d4989bb3f066cb470f33
-    version: 0.2.9
+    revision: a9cae21902e75b1434328ecf36f85327ba5717de
+    version: 0.2.11
     source:
       Git: "https://github.com/pulp-platform/tech_cells_generic.git"
     dependencies:
