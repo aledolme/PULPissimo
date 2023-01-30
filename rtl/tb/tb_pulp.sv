@@ -458,7 +458,7 @@ module tb_pulp;
     .CORE_TYPE(CORE_TYPE),
     .USE_FPU  (USE_FPU),
     .USE_ZFINX (USE_ZFINX),
-    .USE_HWPE  (0),
+    .USE_HWPE  (1),
     .SIM_STDOUT  (SIM_STDOUT)
   ) i_dut (
     .pad_spim_sdio0(w_spi_master_sdio0),
