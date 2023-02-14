@@ -163,7 +163,7 @@ packages:
     revision: ~
     version: ~
     source:
-      Path: /home/phd-students/alessandra.dolmeta/pulpissimo/working_dir/pulp_soc
+      Path: /home/phd-students/alessandra.dolmeta/Desktop/pqc_riscv/pulpissimo/working_dir/pulp_soc
     dependencies:
       - adv_dbg_if
       - apb
@@ -203,7 +203,7 @@ packages:
     revision: ~
     version: ~
     source:
-      Path: /home/phd-students/alessandra.dolmeta/pulpissimo/working_dir/pulp_soc/../register_interface
+      Path: /home/phd-students/alessandra.dolmeta/Desktop/pqc_riscv/pulpissimo/working_dir/pulp_soc/../register_interface
     dependencies:
       - axi
       - common_cells
