@@ -1,2 +1,0 @@
-overrides:
-  pulp_soc: { path: "working_dir/pulp_soc" } # Temporary override by Bender using `bender clone` command
