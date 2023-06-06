@@ -160,7 +160,7 @@ packages:
       Git: "https://github.com/pulp-platform/L2_tcdm_hybrid_interco.git"
     dependencies: []
   pulp_soc:
-    revision: eacd4ae56673246816b864169cbc33966df39a43
+    revision: 943069e1dd400ac3e4182c72ddb76e65d5af560c
     version: ~
     source:
       Git: "https://github.com/aledolme/pulp_soc.git"
@@ -204,9 +204,7 @@ packages:
     version: ~
     source:
       Path: /home/phd-students/alessandra.dolmeta/Desktop/pqc_riscv/pulpissimo/.bender/git/checkouts/pulp_soc-60a5c49e91ba4c5e/./register_interface
-    dependencies:
-      - axi
-      - common_cells
+    dependencies: []
   riscv-dbg:
     revision: 69be5ddc03ea1688c0eab47d6ed9d0e8725beda1
     version: 0.5.1
