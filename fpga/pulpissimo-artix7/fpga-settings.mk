@@ -1,5 +1,5 @@
 export BOARD=artix7
-export XILINX_PART=xc7a200tfbg676-2
+export XILINX_PART=xc7v585tffg1157-1
 export XILINX_BOARD=xilinx.com:ac701:part0:1.4
 export FC_CLK_PERIOD_NS=62.5
 export PER_CLK_PERIOD_NS=100
