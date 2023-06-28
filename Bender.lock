@@ -118,8 +118,8 @@ packages:
       Git: https://github.com/pulp-platform/generic_FLL.git
     dependencies: []
   hwpe-ctrl:
-    revision: 4bf1487a463c262bf7d8ffee79d1cf392937daa2
-    version: 1.7.1
+    revision: 3d9b9bea7b98df24e6b235408364521a1a27d561
+    version: 1.7.2
     source:
       Git: https://github.com/pulp-platform/hwpe-ctrl.git
     dependencies:
@@ -159,7 +159,7 @@ packages:
       Git: https://github.com/pulp-platform/L2_tcdm_hybrid_interco.git
     dependencies: []
   pulp_soc:
-    revision: 40efb08d07d1ea4a9c5e950bf0c7468fe31a8f84
+    revision: 986c80b3f9971bae19e3e86fab81c565df083a11
     version: null
     source:
       Git: https://github.com/aledolme/pulp_soc.git
