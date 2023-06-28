@@ -159,7 +159,7 @@ packages:
       Git: https://github.com/pulp-platform/L2_tcdm_hybrid_interco.git
     dependencies: []
   pulp_soc:
-    revision: 986c80b3f9971bae19e3e86fab81c565df083a11
+    revision: 921cbcaa0f74f900e57f4a966fa840af2d90c1e2
     version: null
     source:
       Git: https://github.com/aledolme/pulp_soc.git
